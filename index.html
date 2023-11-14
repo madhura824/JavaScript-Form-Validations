@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="card">
+        <h1>Registration</h1>
+        <div id="form">
+            <div id="content">
+            <label for="nname" ><h5>Name: </h5></label>
+            <input type="text" id="nname">
+            <small id="names"> </small>
+            </div>
+        
+            <div id="content">
+                <label for="email" ><h5>Email: </h5></label>
+                <input type="text" id="email">
+                <small id="emails"></small>
+            </div>
+            <div id="content">
+                <label for="mobile" ><h5>Mobile: </h5></label>
+                <input type="text" id="mobile">
+                <small id="mobiles"></small>
+            </div>
+           
+            <div id="content">
+                <label for="male">
+                    <input type="radio" id="male" name="gender" value="Male"> Male
+                </label>
+            
+                <label for="female">
+                    <input type="radio" id="female" name="gender" value="Female"> Female
+                </label>
+            </div>
+
+            <div id="content">
+                <label for="state"><h5>State: </h5></label>
+                <select name="state" id="state"></select>
+            </div>
+            <div id="content">
+                <label for="city"><h5>City: </h5></label>
+                <select name="city" id="city"></select>
+                
+            </div>
+
+
+            <button id="submitt">Submit</button>
+
+        
+        </div>
+    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

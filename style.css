@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    background-color: rgb(125, 171, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card{
+    height: 700px;
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+}
+#card h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 8px;
+}
+#form{
+position: absolute;
+top: 55%;
+left: 50%;
+bottom: 50%;
+height: 580px;
+width: 480px;
+transform: translate(-50%,-50%);
+border: solid 2px #666464;
+border-radius: 10px;
+padding: 10px;
+
+}
+#content {
+height: 60px;
+width: auto;
+position: relative;
+display:flex ; 
+align-items: start;
+justify-content: space-between;
+margin: 10px;
+
+}
+
+input{
+position: absolute;
+left: 15%;
+height: 30px;
+width:88%;
+}
+h5{
+
+    height: auto;
+    width: auto;
+}
+small{
+    display: inline;
+
+    position: absolute;
+    top: 50%;
+    height: auto;
+}
+#content input[type="radio"] {
+    position: absolute;
+   display: flex;
+   align-items: start;
+   justify-content: start;
+   left: auto;
+   top: auto;
+}
+#submitt{
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    position: absolute;
+    left: 190px;
+    margin: 10px;
+}
